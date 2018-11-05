@@ -69,6 +69,8 @@ export default {
   'component.noticeIcon.cleared': 'Cleared',
   'component.noticeIcon.empty': 'No notifications',
   'menu.home': 'Home',
+  'menu.demo': 'demo',
+  'menu.demo.todoList': 'Todo List',
   'menu.dashboard': 'Dashboard',
   'menu.dashboard.analysis': 'Analysis',
   'menu.dashboard.monitor': 'Monitor',

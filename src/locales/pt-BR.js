@@ -36,6 +36,8 @@ export default {
   'component.noticeIcon.cleared': 'Limpo',
   'component.noticeIcon.empty': 'Sem notificações',
   'menu.home': 'Início',
+  'menu.demo': 'demo',
+  'menu.demo.todoList': 'Todo List',
   'menu.dashboard': 'Dashboard',
   'menu.dashboard.analysis': 'Análise',
   'menu.dashboard.monitor': 'Monitor',
@@ -71,7 +73,8 @@ export default {
   'menu.account.settings': 'Configurar Conta',
   'menu.account.trigger': 'Disparar Erro',
   'menu.account.logout': 'Sair',
-  'app.login.message-invalid-credentials': 'Nome de usuário ou senha inválidosd（admin/ant.design）',
+  'app.login.message-invalid-credentials':
+    'Nome de usuário ou senha inválidosd（admin/ant.design）',
   'app.login.message-invalid-verification-code': 'Código de verificação inválido',
   'app.login.tab-login-credentials': 'Credenciais',
   'app.login.tab-login-mobile': 'Telefone',

@@ -17,6 +17,19 @@ export default [
     Routes: ['src/pages/Authorized'],
     authority: ['admin', 'user'],
     routes: [
+      // demo
+      {
+        path: '/demo',
+        icon: 'appstore',
+        name: 'demo',
+        routes: [
+          {
+            path: '/demo/todo-list',
+            name: 'todoList',
+            component: './Demo/TodoList',
+          },
+        ],
+      },
       // dashboard
       { path: '/', redirect: '/dashboard/analysis' },
       {
