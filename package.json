@@ -99,7 +99,8 @@
       "git add"
     ],
     "**/*.{js,jsx}": "npm run lint-staged:js",
-    "**/*.less": "stylelint --syntax less"
+    "**/*.less": "stylelint --syntax less",
+    "ignore": ["**/dist/*.*"]
   },
   "engines": {
     "node": ">=8.0.0"
