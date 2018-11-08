@@ -8,7 +8,11 @@ class TodoList extends PureComponent {
   componentDidMount() {}
 
   render() {
-    return <div>todo</div>;
+    return (
+      <div>
+        <h1>todo</h1>
+      </div>
+    );
   }
 }
 
