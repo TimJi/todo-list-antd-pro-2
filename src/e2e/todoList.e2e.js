@@ -21,7 +21,9 @@ describe('TodoMVC 情境', () => {
 
   it('應顯示程式標題與輸入欄位', async () => {
     const text = await page.evaluate(() => document.body.innerHTML);
-    expect(text).toContain('<h1>todo</h1>');
+    expect(text).toContain('<h1>todos</h1>');
+    expect(text).toContain('id="todoForm"');
+    expect(text).toContain('id="newTodo"');
   });
 
   afterAll(() => browser.close());
